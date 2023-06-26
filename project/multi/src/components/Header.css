@@ -1,0 +1,21 @@
+/* .header{
+    /* display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: flex-start;
+    padding:0;  */
+
+/* .header img{
+    width:100%;
+    display: hidden;
+} */
+.header{
+    width:100%;
+    background-image: url("../assets/images/bg-sidebar-mobile.svg");
+    background-size: cover;
+    background-position: top left; /* Adjust the background position */
+    min-height: 150px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+
+}

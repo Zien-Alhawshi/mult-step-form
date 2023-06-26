@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap:2em
+
+    /* align-items: center; 
+     justify-content: center; 
+    gap:2em */
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    margin-top:2em;
+    padding:1px;
+    /* padding:2em; */
+    justify-self: center;
+    text-align: center;
+    color:white;
+   
+    
+}
